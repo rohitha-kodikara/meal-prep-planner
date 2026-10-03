@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Stat = () => {
+const Stat = ({ children }) => {
   return (
-    <div>
-      
+    <div className="rounded-2xl bg-white p-5 shadow-sm">
+             
+            {children}
     </div>
   )
 }
